@@ -1,0 +1,50 @@
+ Expense Tracker Project
+
+  Design:  
+
+1.   User-Friendly Interface:  
+   - Presents a clean interface with entry fields for easy expense input.
+   - Selected fonts prioritize readability.
+
+2.   Handling Errors:  
+   - Ensures user-friendly error messages for empty input fields.
+
+  Features:  
+
+1.   Input:  
+   - Enables users to input daily expenses, including amount, description, and category.
+
+2.   Data Storage:  
+   - Manages expense data through an in-memory list.
+
+3.   Expense Categories:  
+   - Allows users to categorize expenses for better organization.
+
+4.   Data Analysis:  
+   - Provides a basic monthly summary of expenses and category-wise expenditure.
+
+5.   User Interface:  
+   - Utilizes Tkinter for a simple and intuitive GUI window.
+
+6.   Error Handling:  
+   - Checks for valid numerical input for the amount field.
+   - Displays clear error messages for incomplete input.
+
+7.   Documentation:  
+   - Includes comments to clarify different code sections.
+
+  Challenges and Solutions:  
+
+1.   Empty Input:  
+   -   Challenge:   Handling empty input.
+   -   Solution:   Checks for emptiness and gives a clear error.
+
+2.   Simple Interface:  
+   -   Challenge:   Creating an effective yet simple interface.
+   -   Solution:   Opted for minimalism with a single input.
+
+3.   Height Adjustment:  
+   -   Challenge:   Tkinter Entry widget lacks a direct height option.
+   -   Solution:   Adjusted font size to indirectly control height.
+
+The Expense Tracker project focuses on offering an easy way to input expenses and view summaries. Challenges such as handling empty input and designing a straightforward interface have been effectively addressed. The code is documented for clarity, emphasizing user input, data management, and Tkinter GUI design.
