@@ -1,0 +1,14 @@
+The Password Generator is a Python script designed to generate strong and secure passwords based on modern security standards. It allows users to specify the length and the number of passwords to generate. The generated passwords include a mix of uppercase and lowercase letters, numbers, and special characters, ensuring robust security for various applications.
+
+Design Choices
+Python Script: The password generator is implemented as a Python script.
+Random Library: The random library in Python is utilized for generating random characters.
+User Input: Users can specify the length and number of passwords to generate.
+Mix of Characters: The passwords include a mix of uppercase and lowercase letters, numbers, and special characters.
+
+Features
+Random Password Generation: The script generates random passwords with a mix of characters.
+User Input: Users can specify the length and number of passwords to generate.
+Mix of Characters: Passwords include uppercase and lowercase letters, numbers, and special characters.
+Error Handling: Input validation to ensure valid integers are provided.
+Clear Instructions: Clear instructions are provided within the script for user guidance.
